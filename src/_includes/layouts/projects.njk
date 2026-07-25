@@ -24,16 +24,16 @@
     <section class="site-project" id="project">
         <div class="container">
           <div class="row">
-            {% for portfolio in portfolios %}
+            {% for project in projects %}
             <div class="col-lg-6 col-md-10 mx-auto">
               <div class="site-project-item">
                 <div class="site-project-item-thumb">
-                  <img src="{{portfolio.data.img}}" alt="project-thumb">
+                  <img src="{{project.data.img}}" alt="project-thumb">
                 </div>
                 <div class="site-project-item-content">
-                  <span>{{portfolio.data.subTitle}}</span>
-                  <h3>{{portfolio.data.title}}</h3>
-                  <a href="{{portfolio.url}}" class="read-more">{{portfolio.data.linkText}}</a>
+                  <span>{{project.data.subTitle}}</span>
+                  <h3>{{project.data.title}}</h3>
+                  <a href="{{project.url}}" class="read-more">{{project.data.linkText}}</a>
                 </div>
               </div>
             </div>

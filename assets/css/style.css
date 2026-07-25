@@ -45,7 +45,7 @@ h5 {
 
 h6 {
   font-size: var(--font-size-h6);
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .btn {
@@ -308,12 +308,15 @@ textarea.form-control {
   }
 }
 .site-hero-content h1 {
-  margin-bottom: 75px;
+  margin-bottom: 200px;
 }
 @media (max-width: 991px) {
   .site-hero-content h1 {
     font-size: 30px;
   }
+}
+.site-hero-content h6 {
+  letter-spacing: 6px;
 }
 .site-hero-content-buttons {
   margin: 0;
@@ -345,6 +348,13 @@ textarea.form-control {
     margin: 0 auto;
     display: block;
   }
+}
+.site-hero-content-buttons li a .btn-area span {
+  font-weight: 600;
+  min-width: 100px;
+}
+.site-hero-content-buttons li a .btn-area span::after {
+  min-width: 100px;
 }
 .site-hero-scroll {
   position: absolute;
@@ -828,6 +838,13 @@ textarea.form-control {
     margin: 0 auto;
   }
 }
+.site-cta-buttons li a .btn-area span {
+  font-weight: 600;
+  min-width: 100px;
+}
+.site-cta-buttons li a .btn-area span::after {
+  min-width: 100px;
+}
 
 .site-about-header {
   padding-top: 80px;
@@ -844,18 +861,21 @@ textarea.form-control {
   align-items: center;
   flex-wrap: wrap;
 }
-.site-about-company {
+.site-about-topic {
   background: var(--color-primary-400);
   width: 40%;
   padding: 70px 38px;
 }
 @media (max-width: 991px) {
-  .site-about-company {
+  .site-about-topic {
     width: 100%;
     margin-bottom: 20px;
   }
 }
-.site-about-company h1 {
+.site-about-topic.teaching{
+  background: var(--color-primary-200);
+}
+.site-about-topic h1 {
   color: var(--color-white);
   font-weight: 400;
   font-size: 25px;
