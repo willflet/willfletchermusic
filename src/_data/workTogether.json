@@ -1,0 +1,11 @@
+{
+  "heading":"Learn more",
+  "submitBtn":{
+    "btnText":"About Will",
+    "btnLink":"about"
+  },
+  "convBtn":{
+    "btnText":"Blog",
+    "btnLink":"blog"
+  }
+}

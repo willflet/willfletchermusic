@@ -1,0 +1,59 @@
+{% extends "base.njk" %}
+
+{% block content %}
+
+    <section class="site-contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <h1 class="site-contact-title">
+              {{title}}<span>{{subTitle}}</span>
+            </h1>
+          </div>
+          <div class="col-lg-6 ml-auto">
+            <div class="site-contact-form">
+              <h4>{{formTitle}}</h4>
+              <form method="POST" action="https://api.staticforms.dev/submit">
+                <input type="hidden" name="apiKey" value="sf_9fd0575a152273460f68ea0b">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="select-wrapper">
+                      <select type="text" class="form-control" name="topic" id="topic" required>
+                        <option value="" selected disabled hidden>Topic</option>
+                        <option value="teaching">Teaching</option>
+                        <option value="performing">Performing</option>
+                        <option value="other">Other</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                  </div>
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" id="message" rows="6" placeholder="Your message" required></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary" formtarget="_blank">
+                      <span class="btn-area">
+                        <span data-text="{{btnText}}">
+                          {{btnText}}
+                        </span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+{% endblock %}
+{% block workTogether %}{% endblock %}

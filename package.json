@@ -1,0 +1,25 @@
+{
+   "name": "willfletchermusic",
+   "version": "1.0.0",
+   "description": "",
+   "main": ".eleventy.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "npx eleventy --serve",
+      "build": "eleventy"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/willflet/willfletchermusic.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/willflet/willfletchermusic/issues"
+   },
+   "homepage": "https://github.com/willflet/willfletchermusic#readme",
+   "dependencies": {
+      "@11ty/eleventy": "^0.12.1"
+   }
+}

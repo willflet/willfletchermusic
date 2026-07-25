@@ -1,0 +1,22 @@
+{
+  "footerLogo": "/assets/images/logo-footer.png",
+
+  "contactsHeading": "Where to find me",
+  "contactsInfo":[
+    {
+      "link":"https://maps.app.goo.gl/DqVME6CXWimTTPtv5",
+      "text":"Crystal Palace, London"
+    },
+    {
+      "link":"/contact",
+      "text":"Email via form"
+    },
+    {
+      "link": "javascript:void(0);",
+      "text":"WhatsApp @trumpetwill"
+    }
+  ],
+
+  "back2topIcon":"/assets/images/to-top.svg",
+  "customerComment":"Back to top"
+}

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700|Montserrat:300,400,500,600,700&display=swap");
+
+/* CSS Variables for Color Palette */
+:root {
+  /* Primary Colors */
+  --color-primary-100: #fef4ee;
+  --color-primary-200: #5c948e;
+  --color-primary-300: #446e6a;
+  --color-primary-400: #b3754f;
+  --color-primary-500: #935e3f;
+  
+  /* Neutral Colors */
+  --color-neutral-100: #000000;
+  --color-neutral-200: #8D8A80;
+  --color-neutral-300: #646260;
+  
+  /* Semantic Colors */
+  --color-text-primary: var(--color-neutral-100);
+  --color-text-secondary: var(--color-neutral-200);
+  --color-background: var(--color-white);
+  --color-background-alt: var(--color-primary-100);
+  --color-border: var(--color-primary-400);
+  --color-accent: var(--color-primary-400);
+  --color-accent-hover: var(--color-primary-500);
+  --color-accent-light: var(--color-primary-200);
+  --color-white: #ffffff;
+
+  
+}
+
+/* Typography Variables */
+:root {
+  --font-primary: "Josefin Sans";
+  --font-secondary: "Montserrat";
+  --font-size-base: 16px;
+  --font-size-h1: 60px;
+  --font-size-h2: 50px;
+  --font-size-h3: 30px;
+  --font-size-h4: 25px;
+  --font-size-h5: 18px;
+  --font-size-h6: 16px;
+}
