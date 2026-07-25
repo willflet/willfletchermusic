@@ -3,16 +3,16 @@
 /* CSS Variables for Color Palette */
 :root {
   /* Primary Colors */
-  --color-primary-100: #F7F9FF;
-  --color-primary-200: #ADD6D2;
-  --color-primary-300: #8bc5bf;
-  --color-primary-400: #EAA4A4;
-  --color-primary-500: #e07b7b;
+  --color-primary-100: #fef4ee;
+  --color-primary-200: #5c948e;
+  --color-primary-300: #446e6a;
+  --color-primary-400: #b3754f;
+  --color-primary-500: #935e3f;
   
   /* Neutral Colors */
-  --color-neutral-100: #00113E;
-  --color-neutral-200: #9D9EA5;
-  --color-neutral-300: #646569;
+  --color-neutral-100: #000000;
+  --color-neutral-200: #8D8A80;
+  --color-neutral-300: #646260;
   
   /* Semantic Colors */
   --color-text-primary: var(--color-neutral-100);
@@ -24,6 +24,8 @@
   --color-accent-hover: var(--color-primary-500);
   --color-accent-light: var(--color-primary-200);
   --color-white: #ffffff;
+
+  
 }
 
 /* Typography Variables */
@@ -36,5 +38,5 @@
   --font-size-h3: 30px;
   --font-size-h4: 25px;
   --font-size-h5: 18px;
-  --font-size-h6: 15px;
+  --font-size-h6: 16px;
 }
